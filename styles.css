@@ -55,10 +55,18 @@ h2{
 @media(max-width: 800px){
     text-align:center;
     font-size: small;
-
+body{
+    text-align: center;
+}
+.logo{
+    display:none;
+}
 .img-fluid{
     display: none;
     }
+nav a{
+    font-size: 12px;
+}
 }
 
 p{
@@ -119,4 +127,14 @@ nav li{
 }
 nav {
     padding:20px 0;
+}
+nav a{
+    text-decoration: none;
+    color:#272142;
+}
+nav li.active a{
+    color: var(--branding-color);
+}
+nav a:hover{
+    color:var(--branding-color);
 }
