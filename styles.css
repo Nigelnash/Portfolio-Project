@@ -111,3 +111,12 @@ p{
 .logo{
     max-width:150px;
 }
+nav li{
+    display:inline;
+    line-height:40px;
+    line-style:none;
+    margin-left:20px;
+}
+nav {
+    padding:20px 0;
+}
