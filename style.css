@@ -1,0 +1,49 @@
+.container{
+    position: relative;
+    text-align: center;
+}
+
+.img{
+    width:400px;
+    height:auto;
+    display:block;
+    margin-left:30px;
+    border-radius: 10px;
+    position:relative;
+}
+button{
+    paddind:10px 20px;
+    border-radius: 6px;
+    font-size:16px;
+    margin:0 10px;  
+    width:100px; 
+    hight:40px; 
+    display:inline-block;
+    margin-right: 30px;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-overlay{
+    position:absolute;
+    bottom:0;
+    right:180px;
+    left:0;
+    text-align: centers;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:blue;
+
+}
+header{
+    position:absolute;
+    right:490px;
+    top:10px;
+    height:auto;
+    z-index:1;
+}
